@@ -11,8 +11,6 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 320px; /* 16 squares, each 20px wide */
-    height: 320px; /* 16 squares, each 20px tall */
     border: 1px solid #ccc;
 }
   
