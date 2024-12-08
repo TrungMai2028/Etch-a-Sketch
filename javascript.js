@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const square = document.createElement("div");
         container.appendChild(square);
 
+        //if mouse touch boundary, turn the background into red
+        square.addEventListener("mouseover", () => {
+            square.style.backgroundColor = "red";
+        });
     }   
 });
 
